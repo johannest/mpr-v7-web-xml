@@ -84,7 +84,7 @@
       "webpack-dev-server": "3.11.0",
       "webpack-merge": "4.2.2"
     },
-    "hash": "4ba774a167fabb44f626fade2294979bc6e70ccf618ca435a1452a2118f8d529"
+    "hash": "8712d06eb120a6ba31c328fb06255c64852de37d6026109a7206add36d9f3adf"
   },
   "dependencies": {
     "@polymer/iron-a11y-announcer": "3.0.2",
