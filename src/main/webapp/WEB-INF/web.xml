@@ -9,14 +9,13 @@
         <servlet-class>
             com.vaadin.flow.server.VaadinServlet
         </servlet-class>
-
         <init-param>
             <param-name>widgetset</param-name>
             <param-value>org.vaadin.mprdemo.MyWidgetSet</param-value>
         </init-param>
         <init-param>
             <param-name>org.atmosphere.container.JSR356AsyncSupport.mappingPath</param-name>
-            <param-value>/</param-value>
+            <param-value>/mprdemo</param-value>
         </init-param>
     </servlet>
 
