@@ -29,9 +29,9 @@ public class MyUI extends VerticalLayout {
 	private final LegacyView legacyComponent;
 	private final VerticalLayout pushLayout = new VerticalLayout();
 
-	@WebServlet(value = {"/ui/*", "/VAADIN"}, asyncSupported = true, initParams = {
+	@WebServlet(value = {"/mprdemo/*", "/VAADIN"}, asyncSupported = true, initParams = {
 			@WebInitParam(name = "closeIdleSessions", value = "false"),
-			@WebInitParam(name = "org.atmosphere.container.JSR356AsyncSupport.mappingPath", value = "/ui"),
+			@WebInitParam(name = "org.atmosphere.container.JSR356AsyncSupport.mappingPath", value = "/mprdemo"),
 			@WebInitParam(name = "timeout", value = "-1")
 	})
 	public static class Servlet extends VaadinServlet {
