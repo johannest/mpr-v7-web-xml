@@ -14,10 +14,11 @@
 	</prerequisites>
 
 	<properties>
-		<vaadin.version>14.9.4</vaadin.version>
-		<flow.version>2.8.3</flow.version>
+		<vaadin.version>14.9.6</vaadin.version>
+		<flow.version>2.8.5</flow.version>
 		<vaadin7.version>7.7.37</vaadin7.version>
 		<vaadin.plugin.version>7.7.37</vaadin.plugin.version>
+		<mpr.version>2.2.13</mpr.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -82,12 +83,12 @@
          <dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>mpr-core</artifactId>
-			<version>2.2.13</version>
+			<version>${mpr.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>mpr-v7</artifactId>
-			<version>2.2.13</version>
+			<version>${mpr.version}</version>
 		</dependency>
         <dependency>
             <groupId>com.vaadin</groupId>
